@@ -59,8 +59,10 @@
 
 
 
- <!-- rowspan - merges rows(count this tr while adding)  -->
- <!-- colspan - merges columns ("") -->
+ <!-- rowspan - merges rows(count this tr while adding) 
+        horizontal merging -->
+ <!-- colspan - merges columns ("") 
+        vertical merging-->
 
  <!-- creete outside tr in th -->
 
@@ -199,6 +201,70 @@
     </table>
 
 
+
+    <table border="1">
+        <caption>food menu</caption>
+
+            <thead>
+                <tr>
+                    <th rowspan="2">items</th>
+                    <th colspan="2">cost</th>
+                </tr>
+
+                <tr>
+                    <th>inr</th>
+                    <th>usd</th>
+                </tr>
+            </thead>
+
+            <tr>
+                <td>item 1</td>
+                <td>20</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td>item 2</td>
+                <td>30</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <td>total</td>
+                <td>50</td>
+                <td>5</td>
+            </tr>
+            
+
+    </table>
+
+
+
+    <table border="1">
+        <thead>
+            <th rowspan="2">day</th>
+            <th colspan="2">schedule</th>
+
+         <tr>
+             <th>morning</th>
+             <th>evening</th>
+         </tr>
+        </thead>
+
+        <tr>
+            <td>monday</td>
+            <td>math</td>
+            <td>science</td>
+        </tr>
+ 
+        <tr>
+            <td>tuesday</td>
+            <td colspan="2">field trip</td>
+        </tr>
+       
+
+
+    </table>
 
 
 
