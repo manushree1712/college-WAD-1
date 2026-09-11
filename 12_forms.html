@@ -11,15 +11,15 @@
     
 
 </head>
-<body style="background-color: lightgoldenrodyellow;">
+<body style="background-color: lightgoldenrodyellow; color:rgb(1, 78, 78)">
     
     <h1>simple form</h1>
-
+ 
 
 
  <form action="simple form">
     <label for="name">Username:
-        <input type="text" placeholder="enter username" value="--">
+        <input type="text" placeholder="enter username" value="--">  <!-- the va;ue thingy is a variable which can be changed, it is imp for backend later -->
     </label> <br> <br>
 
     <label for="password"> Password:
@@ -29,14 +29,14 @@
     <label for="email"> Email:
         <input type="email" placeholder="enter email">
     </label> <br> <br>
-    <label for="gender"> Gender: 
+    <label for="gender"> Gender:             <!-- to choose a specific one -->
         <input type="radio" name="gender"> Male
         <input type="radio" name="gender"> Female
     </label><br> <br>
 
-    <label for="languages"> Languages known:
+    <label for="languages"> Languages known:        <!-- to choose multiple options-->
         <input type="checkbox" name="telugu" id="simple form"> Telugu
-        <input type="checkbox" name="hindi" id="simple form"> Hindi
+        <input type="checkbox" name="hindi" id="simple form"> Hindi  <!-- these tel, hin, are stored in label tag -->
         <input type="checkbox" name="english" id="simple form"> English
     </label>
     <br><br>
@@ -57,6 +57,7 @@
 
 
     <button type="submit">Sign in</button>
+    <button type="reset">Reset</button>
  </form>
 
 
