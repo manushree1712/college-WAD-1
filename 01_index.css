@@ -1,0 +1,16 @@
+h1{
+    color: #f26cb6;
+}
+
+p{
+    color: cadetblue;
+}
+
+body{
+    background-color: #fddf7a;
+}
+
+
+h1{
+    color: lightblue;  /* latest is always applied compared to others*/
+}
