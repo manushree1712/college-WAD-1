@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+      <style>
+        
+        body > p{     /*all the elements*/
+          color: rgb(21, 82, 82);
+          background-color: #680e0e;
+        }
+
+
+        div  p{      /*all the sub elements*/
+          color: rgb(73, 122, 1);
+          background-color: #ff4b9f;
+        }
+
+
+        h2 ~ p{       /*only the onnes to its right*/
+          color:darkseagreen;
+          background-color: #f5eb68;
+        }
+
+        h2 + p{       /*only the one to its side and nobody else*/
+          color: maroon;
+          background-color: #ac9bdb;
+        }
+      </style>
+
+      <!-- body > p == child selector -->
+      <!-- body   p == descendent selector -->
+      <!-- body ~ p0 == general child selector -->
+      <!-- body + p0 == adjacent child selector -->
+
+
+  </head>
+  <body>
+    <h2>Selectors</h2>
+    <p>Para 0</p>
+    <div>   <!-- p1 p2 section a are div's child seletors -->
+      <p>Para 1</p>
+      <p>Para 2</p>
+      <section>
+        <p>Para 3</p>
+      </section>
+      <a href="#">Google</a>
+    </div>
+    <p>Para 4</p>
+    <p>Para 5</p>
+  </body>
+</html>
+
+
+<!-- descendant selector : //-->
+<!-- child selector : //  -->
+<!-- adjacent sibling selector -->
+<!-- general sibling selector  -->
+<!-- pseudo class selector -->
+<!-- pseudo element selector -->
+<!-- grouping selector -->
+
+
+
+
+
+<!-- sibling selector only chooses the onne which comes after it, for example - 
+      div's sibling are only p4, p5 -->
+
