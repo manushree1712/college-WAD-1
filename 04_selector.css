@@ -1,0 +1,60 @@
+body{
+    background-color: #acc8ff;
+}
+
+
+input[type = "text"]{
+    background-color: #c4fcf1;
+}
+
+input[type="password"]{
+    background-color: #ff369b;
+}
+
+input[type="email"]{
+    background-color: #ffd34e;
+}
+
+a[href^="https"]{
+    color: crimson;
+}
+
+a[href^="www"]{
+    color: rgb(20, 190, 220);
+}
+
+
+button{
+    background-color: lightpink;
+    color: bisque;
+}
+
+button:hover{
+    background-color:#ff369b;
+    color: lightslategray;
+}
+
+/* input:hover{
+    background-color: rgb(255, 255, 144);
+} */
+
+/* CHECKED,ACTIVE,VISITED */
+
+
+/* these come under psuedo elements */
+
+
+p::first-line{
+    color: #a2ff68;
+    
+}
+
+p::first-letter{
+    color: #ffd34e;
+    
+}
+
+p::selection{
+    color: cornflowerblue;
+    background-color: bisque;
+}
