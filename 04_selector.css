@@ -1,5 +1,9 @@
 body{
     background-color: #acc8ff;
+    border: #ff369b 10px;
+   border-style: double;
+   padding: 30px;
+   margin: 5px;
 }
 
 
@@ -45,7 +49,7 @@ button:hover{
 
 
 p::first-line{
-    color: #a2ff68;
+    color: #245e00;
     
 }
 
@@ -58,3 +62,6 @@ p::selection{
     color: cornflowerblue;
     background-color: bisque;
 }
+
+
+

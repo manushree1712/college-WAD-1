@@ -1,0 +1,26 @@
+body{
+    background-color: #acc8ff;
+    border: #ff369b 10px;
+   border-style: double;
+   padding: 30px;
+   margin: 50px;
+}
+
+
+h1{
+    border: #ffd34e 5px;
+    border-radius: 10px;
+    border-style: solid;
+    
+}
+
+p{
+    border: #31eaff 5px;
+    border-style: dashed;
+    margin: 50px;
+}
+
+div{
+    border: #81b879 5px;
+    border-style:dotted;
+}
