@@ -3,7 +3,8 @@ body{
     border: #ff369b 10px;
    border-style: double;
    padding: 30px;
-   margin: 5px;
+   margin: 32px;
+   
 }
 
 
@@ -63,5 +64,15 @@ p::selection{
     background-color: bisque;
 }
 
+
+/*  while calculating the width, add 2 padding + element width + border width */
+
+p{
+    border: #c4fcf1 solid 2px;
+    padding: 30px;
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+}
 
 
