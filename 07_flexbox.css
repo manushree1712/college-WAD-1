@@ -1,0 +1,33 @@
+/* .parent{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    width: 300px; /* width applies for parent
+
+} */
+
+/* flex */
+
+body{
+    background-color: burlywood;
+}
+h1{
+    text-align: center;
+}
+
+.outer{
+    width: 900px;
+    height: 600px;
+    border: 2px solid blue;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;        /*occupy nxt row*/
+    /* flex-wrap(controls cross axis):no wrap----dont occupy next row  DEFAULT*/
+    /* wrap reverse  */
+}
+
+.inner{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+

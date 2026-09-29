@@ -1,11 +1,29 @@
-div{
+#id1{
     box-sizing: border-box;
-    width: 300px;
+    width: 500px;
     height: 400px;
-    background-image: url(06_bg.jpg);
+    /* background-image: url(06_bg.jpg); */
     border: 3px pink solid;
+    /* background-color:yellowgreen; */
+    background: linear-gradient(to left, #fff8e7, #95bbea);
+
 }
+
+
+#id2{
+    box-sizing: border-box;
+    width: 500px;
+    height: 400px;
+    /* background-image: url(06_bg.jpg); */
+    border: 3px pink solid;
+    /* background-color:yellowgreen; */
+    background: linear-gradient(to bottom, #f4eceb, #b76e79);
+
+}
+
+
 P{
     color: rgb(74, 113, 147);
     size: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }
