@@ -19,15 +19,31 @@ h1{
     height: 600px;
     border: 2px solid blue;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;        /*occupy nxt row*/
-    /* flex-wrap(controls cross axis):no wrap----dont occupy next row  DEFAULT*/
-    /* wrap reverse  */
+    display: flex; 
+    /* flex-wrap: wrap;   
+    flex-direction: row;     */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    justify-content:;
+
 }
 
 .inner{
     width: 100px;
     height: 100px;
     border: 2px solid black;
-}
 
+    }
+
+
+
+
+/*  justify content: to change the position of the elemet along the main axis, it includes
+        - flex-start
+        - flex-end
+        - center 
+*/
+
+/*occupy nxt row*/
+/* flex-wrap(controls cross axis):no wrap----dont occupy next row  DEFAULT*/
+/* wrap reverse  */
